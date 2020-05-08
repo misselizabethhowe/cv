@@ -124,6 +124,7 @@ header .navbar ul li a.active::before {
   background-image: url("../images/Barcelona_a.jpg");
   background-size: cover;
   padding: 50px;
+  background-position: top;
 }
 
 .home .full-screen {
@@ -345,7 +346,7 @@ header .navbar ul li a.active::before {
 
 /* --------skills------------- */
 .skills {
-  padding: 100px, 15px;
+  padding: 100px 15px;
   background-color: #ffff;
 }
 
@@ -401,7 +402,7 @@ header .navbar ul li a.active::before {
 
 .skills .skills-content .skills-title p span {
   color: #7b1fa6;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .skills .skills-content .skills-box {
@@ -710,12 +711,14 @@ footer .social-links a:hover {
   .home .home-content .block h1 {
     font-size: 50px;
   }
+
+  
 }
 
-@media (max-width: 767px) {
-  .home {
+@media (max-width: 768px) {
+  /* .home {
     background-position: center;
-  }
+  } */
   .home .home-content .block h1 {
     font-size: 40px;
   }
@@ -885,7 +888,7 @@ footer .social-links a:hover {
   }
 
   .about .about-content .text .my-info .list p {
-    flex: 0 0 100%;
+    flex: 0 0 50%;
     margin: 0;
   }
 
