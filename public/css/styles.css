@@ -562,25 +562,26 @@ header .navbar ul li a.active::before {
   flex: 0 0 100%;
   max-width: 100%;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .contact-me .contact-form .text h2 {
   font-size: 25px;
   font-weight: 600;
-  color: #000000;
-  margin: 0;
+  color: #c2185b;
+  margin: 5px;
   padding: 0;
 }
 
-.contact-me .contact-form .text p {
+.contact-me .contact-form .text h3 {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  color: #616161;
-  margin-top: 5px;
+  color: #7b1fa6;
+  margin: 10px;
 }
 
-.contact-me .contact-form .space-inbetween {
+/* .contact-me .contact-form .space-inbetween {
   justify-content: space-between;
 }
 
@@ -603,15 +604,15 @@ header .navbar ul li a.active::before {
   font-size: 14px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-}
+} */
 
-.contact-me .contact-form textarea.form-control {
+/* .contact-me .contact-form textarea.form-control {
   height: 140px;
 }
 
 .contact-me .contact-form .form-control::placeholder {
   color: #616161;
-}
+} */
 
 .contact-me .contact-form .button {
   flex: 0 0 100%;
@@ -628,7 +629,7 @@ header .navbar ul li a.active::before {
   font-weight: 600;
   transition: all 0.5s ease;
   background-color: #7b1fa2;
-  float: right;
+  float: center;
   box-shadow: 0 10px 15px #e8e8e8;
 }
 

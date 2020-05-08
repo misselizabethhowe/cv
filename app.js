@@ -59,6 +59,13 @@ hamBurger.addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("show");
 });
 
+function sendEmail(msg) {
+    var name = msg.name;
+    var email = msg.email;
+    var emailBody = 'Hi ' + msg.from;
+    document.location = "mailto:mshadab16@gmail.com" + email + "?subject=" + subject + "&body=" + emailBody;
+}
+
 
 
 
