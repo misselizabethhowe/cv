@@ -346,7 +346,7 @@ header .navbar ul li a.active::before {
 
 /* --------skills------------- */
 .skills {
-  margin-top: -30vh;
+  margin-top: -20vh;
   padding: 100px 15px;
   background-color: #ffff;
 }
@@ -838,6 +838,10 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 500px) {
+  .skills {
+    margin-top: -30vh;
+  }
+
   .home .home-content .block h1 {
     font-size: 25px;
   }
