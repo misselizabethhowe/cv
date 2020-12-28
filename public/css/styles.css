@@ -395,8 +395,8 @@ header .navbar ul li a.active::before {
 }
 
 .skills .skills-content .skills-title p {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
   color: #616161;
   margin: 0 0 10px;
@@ -404,18 +404,19 @@ header .navbar ul li a.active::before {
 
 .skills .skills-content .skills-title p span {
   color: #7b1fa6;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .skills .skills-content .skills-box {
   flex: 0 0 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .skills .skills-content .skills-box h6 {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
   color: #616161;
   margin: 0 0 8px;
 }
@@ -447,6 +448,7 @@ header .navbar ul li a.active::before {
 .experience {
   padding: 100px 0;
   background-color: #e1bee7;
+  margin-top: -10vh
 }
 
 .experience .experience-title {
